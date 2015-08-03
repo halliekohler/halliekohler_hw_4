@@ -13,46 +13,42 @@
 			padding: 20px;
 		}
 
+		.logo {
+        	width: 300px;
+        	margin: 0 auto;
+        }
+
+		.nav_wrapper{
+			width: 100%;
+        	margin: 0 auto;
+        	text-align: center;
+        	color: #FDF9F6;
+        	font-family: helvetica;
+			text-transform: uppercase;
+		}
 	
 		h1{
-			text-align: center;
-			font-size: 20px;
-			font-family: helvetica;
+			font-size: 20px;		
 			letter-spacing: 5px;
-			color:#ffffff;
-			vertical-align: middle;
-			text-transform: uppercase;
-			padding: 50px 20px;
+			padding: 50px 0px;
+			
 		}
 		
-		p{
-			text-transform: uppercase;
-			text-align: center;	
-			color:#4C5154;	
-		}
-
-
-		a {
-			text-decoration: none;
-			color: #ffffff;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
-		a:hover{
-			color: #444E3B;
-		}
-
 		li{
 			list-style-type: none;
 			display: inline-block;
 			margin: 0 15px;
-			}
+			text-align: center;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #FDF9F6;	
+			letter-spacing: 3px;
+		}
 
-		.nav_wrapper{
-			width: 500px;
-        	margin: 0 auto;
-        	text-align: center;
+		a:hover{
+			color: #444E3B;
 		}
 
 		.centering_wrapper {
@@ -69,6 +65,16 @@
 			padding: 2%;				
 		}
 		
+		p {
+			letter-spacing: 2px;
+			text-align: center;	
+			vertical-align: center;
+			color:#FDF9F6;	
+			font-family: helvetica;
+			padding: 10px 0;
+		}
+
+
 		.left_column{
 			background-color:#4C5154;
 			float:left; 
@@ -78,43 +84,58 @@
 			padding: 2%;	
 		}
 
+		 .social_icons{
+			width:70px;
+			margin: 0 auto;
+		}
+
 		.footer{
 			background-color: #FDF9F6; 
 			clear: both;
 			border-radius: 20px;
 			width: 92%;
-			height: 300px;
+			height: 200px;
 			margin:2%;
 			padding: 2%;
 		}
-		
-		.about{
-			opacity: 1.0;
-			color: #ffffff;
+
+		#mm{
+			width: 150px;
+			float: left;
+			padding: 20px;
+
 		}
 
-		.title {
-        	width: 300px;
-        	margin: 0 auto;	
-        }
+		.nav_wrapper2{
+			width: 100%;
+        	margin: 0 auto;
+        	text-align: center;
+        	color: #000000;
+        	font-family: helvetica;
+			text-transform: uppercase;
+		}
 
-        .box{
-			width:70px;
-			margin: 0 auto;
+		a.mm{
+			color: #444E3B;
+		}
+
+		a.mm:hover{
+			color: #FDF9F6;
 		}
 
 		</style>
 	</head>
 
 	<body>	
-		<div class="title">
+		<div class="logo">
 			<img src= "./background/White_LOGO.png" width="300px">
-		
-			<h1>Hallie Kohler Imagery &amp; Illustustration</h1>	
 		</div>
 
-			<div class="nav_wrapper">	
+			
+			<div class="nav_wrapper">
 				<nav>
+					<h1>Hallie Kohler Imagery &amp; Illustustration</h1>
+
 					<ul>
 						<li> <a href="./photos.html"> PHOTOGRAPHY</a>
 						</li>
@@ -127,20 +148,23 @@
 			</div>
 			
 			<div class="centering_wrapper">
-				<div class="right_column">	
-					<div class="about">
-			          	Growing up in northern Michigan, Hallie Kohler found inspiration in the lakes and pines. She began documenting the scenery at an early age, family and friends the first stars of her photographic chronicles.
-
-						As a studio art major, Hallie studied photography, drawing, and printmaking at Colgate University in Hamilton, New York. Her breadth of knowledge in multiple mediums shaped her eclectic artistic sense. In Florence, Italy, Hallie studied at Studio Art Centers International, developing her keen sense of absorbing what matters and what’s interesting -- with a instinctive desire to record it all. She has traveled around the U.S. and Europe to shoot and sketch. 
-
+				<div class="right_column">			
+		          	<p>
+			          	Growing up in northern Michigan, Hallie found inspiration in the lakes and pines. She began documenting the scenery at an early age, family and friends the first stars of her photographic chronicles.
+			         </p>
+			         <p>
+						As a studio art major, Hallie studied photography, drawing, and printmaking at Colgate University in Hamilton, New York. Her breadth of knowledge in multiple mediums shaped her eclectic artistic sense. In Florence, Italy, Hallie studied at Studio Art Centers International, developing her keen sense of absorbing what matters and what's interesting -- with a instinctive desire to record it all. She has traveled around the U.S. and Europe to shoot and sketch. 
+					</p>
+					<p>
 						Hallie's passion for capturing experiences is rivaled only by her thirst for adventure and desire that her photographs and videos draw people closer to the places and people she encounters.
-
+					</p>
+					<p>
 						She currently lives and works in Brooklyn, New York, as a freelance Photographer, Videographer, Designer, and Maker of Things. Odd jobs and multi-tasking abound.
-			   		 </div>
-			   	</div>
+					</p>
+				</div>
 
 			    <div class="left_column">
-			        <div class="box">
+			        <div class="social_icons">
 			        	<a href="http://facebook.com" target="_blank"><img src="./social_icons/facebook.png" width="70px"></a>
 			        	<a href="http://instagram.com" target="_blank"><img src="./social_icons/instagram.png"  width="70px"></a>
 			        	<a href="http://google.com/mail" target="_blank"><img src="./social_icons/email.png" width="70px"></a>
@@ -150,12 +174,24 @@
 			    </div>
 
 			    <div class="footer">
-				       <center>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</center>
+				    <a href="http://mothmullein.com" target="blank"><img id="mm" src="./background/mothmullein_trees.png"></a>
+				    <p>
+				    	<span style="color:#444E3B"> 
+				    		Check out my greeting card shop, Moth Mullein Paper Co. 
+				    	</span>
+				    </p>
+				    <div class="nav_wrapper2">
+				    	<ul>
+							<li> <a class="mm" href="http://mothmullein.etsy.com"> On Etsy</a>
+							</li>
+							<li> <a class="mm" href="instagram.com/mothmullein"> On Instagram</a>
+							</li>
+							<li> <a class="mm" href="facebook.com/mothmullein"> On Facebook</a>
+							</li>
+						</ul>
+					</div>
+				    </span>
+
 			    </div>
 			</div>
 	</body>
